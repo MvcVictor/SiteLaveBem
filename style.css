@@ -2,19 +2,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background: linear-gradient(180deg, #e6f7fa 0%, #fafdff 100%);
   text-align: center;
 }
+
 header {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background-color: #66a7d2;
-  padding: 0% 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #2533a8 0%, #4169e1 100%);
+  padding: 16px 0 16px 0;
+  box-shadow: 0 8px 24px rgba(10, 15, 13, 0.12);
 }
+
 .LaveBemLogo {
-  height: 60px;
+  height: 80px;
   width: 100px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(65, 105, 225, 0.1);
+  padding: 8px;
 }
 
 /* From Uiverse.io by NelsonDJCR */
@@ -30,7 +38,7 @@ header {
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #3f6d39;
 }
 
 .button2 > svg {
@@ -93,8 +101,36 @@ header {
 }
 
 h1 {
-  color: #999;
+  color: #4169e1;
+  margin-top: 16px;
 }
+
 h4 {
-  color: #999;
+  color: #2533a8;
+  margin-bottom: 24px;
+}
+h6 {
+  color: #8c96a0;
+  margin-bottom: 5px;
+}
+
+.sobre-nos-card {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 32px auto 24px auto;
+  padding: 32px 24px;
+  text-align: left;
+}
+
+.sobre-nos-card h2 {
+  color: #009087;
+  margin-top: 0;
+}
+
+.sobre-nos-card p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
